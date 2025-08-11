@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dollar to Dare</title>
+    <title>Dollar War</title>
     <!-- 1. Tailwind CSS for styling -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- 2. React libraries -->
@@ -68,7 +68,7 @@
             return (
                 <div className="fixed inset-0 bg-gray-900 bg-opacity-90 flex items-center justify-center z-50 p-4">
                     <div className="bg-gray-800 rounded-lg shadow-2xl p-8 w-full max-w-xl text-white border-2 border-yellow-500 text-center transform transition-all animate-fade-in-up">
-                        <h1 className="text-4xl font-extrabold mb-4 text-yellow-400">Welcome to Dollar to Dare!</h1>
+                        <h1 className="text-4xl font-extrabold mb-4 text-yellow-400">Welcome to Dollar War!</h1>
                         <div className="text-lg text-gray-300 space-y-4 my-6">
                             <p>The rules are simple. Donate <strong className="text-white">one dollar</strong> to see the name of the person who donated right before you.</p>
                             <p>Your donation enters you into a 50/50 draw for <strong className="text-green-400">Fame</strong> (a cool reward) or <strong className="text-purple-400">Shame</strong> (a funny punishment).</p>
@@ -78,7 +78,7 @@
                             onClick={onContinue}
                             className="w-full max-w-xs mx-auto bg-yellow-500 hover:bg-yellow-400 text-gray-900 font-bold py-3 rounded-lg text-xl transition-transform transform hover:scale-105"
                         >
-                            I'm Ready to Dare
+                            I'm Ready
                         </button>
                     </div>
                 </div>
@@ -164,7 +164,7 @@
                 <h2 className="text-3xl font-bold mb-2 text-center">Join the Dare!</h2>
                 <p className="text-gray-400 mb-6 text-center">Create your identity for the event.</p>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                <div className="grid grid-cols-1 gap-6 mb-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1">1. Choose Username</label>
                     <input
@@ -404,7 +404,7 @@
               <header className="bg-gray-900/80 backdrop-blur-sm sticky top-0 z-20 py-4 px-4 sm:px-8 border-b border-gray-700">
                 <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between">
                   <div className="text-center sm:text-left mb-4 sm:mb-0">
-                    <h1 className="text-2xl sm:text-3xl font-bold">Dollar to Dare</h1>
+                    <h1 className="text-2xl sm:text-3xl font-bold">Dollar War</h1>
                     <p className="text-sm text-gray-400">What’s one dollar between you and infamy?</p>
                   </div>
                   <CountdownTimer />
